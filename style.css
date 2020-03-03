@@ -1,5 +1,50 @@
-h1	{
-	color: green;
-	font-size: 20px
-	font: Montserrat;
+/* Colors and Fonts */
+
+body {
+
+	background: #FAFAFA;
+	color: rgb(10,10,10);
+}
+
+h1, h2, h3 {
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	color: grey;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+body {
+
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+img {
+	max-width: 200px;
+	border-radius: 100px;
+	box-shadow: 1px 2px 20px grey;
+}
+
+a {
+	text-decoration: none;
+	color: #93C95D;
+}
+
+
+a:hover {
+	color: black;
+}
+
+div {
+	background:white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50,50,91,.1);
+	max-width: 300px
+	margin: 50% auto;
 }
