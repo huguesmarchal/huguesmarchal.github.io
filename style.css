@@ -4,6 +4,9 @@ body {
 
 	background: #FAFAFA;
 	color: rgb(10,10,10);
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	text-align: center;
 }
 
 h1, h2, h3 {
@@ -17,13 +20,6 @@ h1 {
 	font-weight: 700;
 }
 
-body {
-
-	font-family: Raleway, sans-serif;
-	font-size: 16px;
-	text-align: center;
-}
-
 img {
 	max-width: 200px;
 	border-radius: 100px;
@@ -35,16 +31,39 @@ a {
 	color: #93C95D;
 }
 
-
-a:hover {
-	color: black;
-}
-
-div {
+.card {
 	background:white;
+	margin:20px;
 	padding: 30px;
 	border-radius: 4px;
 	box-shadow: 0 15px 35px rgba(50,50,91,.1);
-	max-width: 300px
-	margin: 50% auto;
+
+}
+
+.card:hover {
+	box-shadow: 0 50px 35px rgba(50,50,91,.1);
+	transition: ease .9s;
+}
+
+.list-inline {
+	padding:0px;
+}
+
+.item-inline {
+	display:inline;
+	padding:10px auto;
+}
+
+.btn-green {
+	background-color: #93c95d;
+	width:.9em;
+	border-radius: 4px;
+	color:white;
+	margin:100px;
+	padding: 10px;
+}
+
+.btn-green:hover {
+	transition: ease .9s;
+	box-shadow: 0 15px 35px rgba(50,50,91,.1);
 }
