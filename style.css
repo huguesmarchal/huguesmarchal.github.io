@@ -33,7 +33,8 @@ a {
 
 .card {
 	background:white;
-	margin:20px;
+	margin-top:20px;
+	margin-bottom:20px;
 	padding: 30px;
 	border-radius: 4px;
 	box-shadow: 0 15px 35px rgba(50,50,91,.1);
@@ -67,3 +68,32 @@ a {
 	transition: ease .9s;
 	box-shadow: 0 15px 35px rgba(50,50,91,.1);
 }
+
+.container {
+	margin:20px auto;
+	width:700px;
+}
+
+@media	(max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 500px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
